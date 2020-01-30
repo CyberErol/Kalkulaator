@@ -67,7 +67,7 @@ main {
 }
 .section-2-text {
     position: absolute;
-    width: 460px;
+    width: 560px;
     height: 140px;
     font-family: Ubuntu;
     font-style: normal;
@@ -81,7 +81,7 @@ main {
 }
 .section-3-text {
     margin-top: -10px;
-    left: -900px;
+    left: -500px;
     position: absolute;
     width: 840px;
     height: 120px;
@@ -94,8 +94,8 @@ main {
 }
 .section-1-2 {
     position: relative;
-    left: 1000px;
-    width: 900px;
+    left: 550px;
+    width: 1300px;
     margin-top: 30px;
     height: 160px;
     background: #E5E5E5;
@@ -104,10 +104,10 @@ main {
 }
 .section-1-2-text{
     margin-top: -185px;
-    left: 950px;
+    left: 550px;
     position: relative;
-    width: 840px;
-    height: 160px;
+    width: 740px;
+    height: 260px;
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
