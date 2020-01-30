@@ -17,9 +17,26 @@ body {
     height: 100%;
     flex-direction: column;
     max-width: 950px;
+    float: center;
     width: 100%;
-    border: slateblue solid 1px;
+    margin: 10px;
 }
+
+.container2 {
+    background-color: lightgrey;
+    flex-direction: column;
+    max-width: 950px;
+    float: center;
+    margin: 10px;
+}
+
+.container3 {
+    background-color: gray;
+    flex-direction: column;
+    max-width: 950px;
+    float: center;
+}
+
 
 .header {
     height: 100px;
