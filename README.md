@@ -1,2 +1,0 @@
-# Kalkulaator
-Eelarve kalkulaator
