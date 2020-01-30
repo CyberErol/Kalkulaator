@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body {
     height: 100%;
 }
@@ -13,44 +18,34 @@ body {
     background-color: darkgrey;
 }
 
-
 .container {
     height: 100%;
-    
     flex-direction: column;
     max-width: 950px;
-    float: center;
     width: 100%;
-    margin: 25px;
-    
+    border: slateblue solid 1px;
 }
-
-.container2 {
-    background-color: lightgrey;
-    flex-direction: column;
-    max-width: 950px;
-    float: center;
-    margin: 10px;
+.tekstkast2 {
+    font-size: 25px;
+    height: 70px;
+    margin-top: -70px ;
+    padding-left: 550px;
 }
-
-.container3 {
-    background-color: gray;
-    flex-direction: column;
-    max-width: 1050px;
-    float: center;
-    padding-top: 10px;
-}
-
 
 .header {
+    padding-top: 20px;
+    font-size: 30px;
     height: 100px;
     background-color: grey;
-    flex-direction: column;
-    max-width: 1050px;
-    display: flex;
-    align-items: left;
-    justify-content: center
-    
+    padding-left: 30px;
+}
+.kast2 {
+    position: relative;
+    width: 1000%;
+    height: 50px;
+    top: -80px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 main {
@@ -61,14 +56,9 @@ main {
 .kast {
     height: calc(100% - 20px);
     background-color: white;
-    width: 100%;
+    width: 110%;
     margin: 10px;
-    height: 50px; 
-    text-align: center;
-    border: 1px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center  
+    height: 50px;
 }
 
 .button {
@@ -113,6 +103,4 @@ main {
     width: 100%;
     background-color: silver;
     height: 400px;
-    border-radius:15px;
 }
-
