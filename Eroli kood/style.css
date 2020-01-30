@@ -7,15 +7,6 @@ html, body {
     height: 100%;
 }
 
-body {* {
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -44,12 +35,19 @@ body {
     flex-direction: column;
     max-width: 1050px;
     float: center;
+    padding-top: 10px;
 }
 
 
 .header {
     height: 100px;
     background-color: grey;
+    flex-direction: column;
+    max-width: 1050px;
+    display: flex;
+    align-items: left;
+    justify-content: center
+    
 }
 
 main {
@@ -65,99 +63,9 @@ main {
     height: 50px; 
     text-align: center;
     border: 1px solid;
-   
-    
-}
-
-.button {
-	display: inline-block;
-	outline: none;
-    cursor: pointer;
-    width: 50%;
-    height: 50px;
-    margin: 10px;
-	text-align: center;
-	text-decoration: none;
-	font: 14px/100% Arial, Helvetica, sans-serif;
-	padding: .5em 2em .55em;
-	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-	box-shadow: 0 1px 2px rgba(0,0,0,.2);
-}
-
-.button:hover {
-	text-decoration: none;
-}
-
-.button:active {
-	position: relative;
-	top: 1px;
-}
-
-.pluss {
-    background-color: lightgreen;
-}
-
-.miinus {
-    background-color: tomato;
-}
-
-.column1 {
-    float: center;
-    width: 100%;
-    background-color: silver;
-    height: 400px;
-}
     display: flex;
-    justify-content: center;
-    background-color: darkgrey;
-}
-
-.container {
-    height: 100%;
-    flex-direction: column;
-    max-width: 950px;
-    float: center;
-    width: 100%;
-    margin: 10px;
-}
-
-.container2 {
-    background-color: lightgrey;
-    flex-direction: column;
-    max-width: 950px;
-    float: center;
-    margin: 10px;
-}
-
-.container3 {
-    background-color: gray;
-    flex-direction: column;
-    max-width: 950px;
-    float: center;
-}
-
-
-.header {
-    height: 100px;
-    background-color: grey;
-}
-
-main {
-    flex: 1;
-    display: flex;
-}
-
-.kast {
-    height: calc(100% - 20px);
-    background-color: white;
-    width: 100%;
-    margin: 10px;
-    height: 50px;
+    align-items: center;
+    justify-content: center  
 }
 
 .button {
