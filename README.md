@@ -1,2 +1,1 @@
-# Kalkulaator
-Eelarve kalkulaator
+# RandoStart
