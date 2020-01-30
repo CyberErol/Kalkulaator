@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        {
+    box-sizing: border-box;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+
     <link rel="stylesheet" href="style.css">
     <title>Kulude Kalkulaator</title>
 </head>
 <body>
-    <div class="section-1">
-            <div class="section-1-2">
-                    <div class="section-3-text">
-                        EELARVE PLAANUR
-                        <div class="section-1-2-text">
-                            Jääk:
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <div class="container">
-        <header>EELARVE 
-            PLAANUR</header>
+    <div class="flex-container">
+        <header>EELARVE PLAANUR</header>
         <main>
             <div class="box2">Sisestage kirjeldus</div>
-            <div class="box2">Sisestage summa</div>
+            <div input type="submit" class="box2">Sisestage summa</div>
             <div class="box2">Lisa tuludesse</div>
+            <button type="button" class="button" onclick="pluss()"> + </button>
             <div class="box2">Lisa kuludesse</div>
+            <button type="button" class="button2" onclick="miinus()"> - </button>
             <div class="box2"></div>
         </main>
+
+        <div class="flex-container" style="display: flex;">
+            <div class="column1" >
+              <h2>Tulud</h2>
+            </div>
+            <div class="column2">
+              <h2>kulud</h2>
+            </div>
+          </div>
+
     </div>
+      
+
 </body>
 </html>
