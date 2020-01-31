@@ -7,29 +7,40 @@
     <style> { box-sizing: border-box; }
     .row:after { content: ""; display: table; clear: both; }
     </style>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Kulude Kalkulaator</title>
+    <title>EELARVE PLAANUR</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="header">EELARVE PLAANUR</header>
-        <main>
-            <div class="tekstkast2">Jääk:</div>
-            <div class="kast2"></div>
-            <div class="kast">Sisestage kirjeldus</div>
-            <div input type="submit" class="kast">Sisestage summa</div>
-        </main>
-        <main>
-            <button type="button" class="button pluss" onclick="pluss()"> Lisa tuludesse </button>
-            <button type="button" class="button miinus" onclick="miinus()"> Lisa kuludesse </button>
-        </main>
-        <main>
-            <div class="container" style="display: flex;">
-                <div class="column1" >
+            <div class="header">
+                <div class="header-text">
+                    <h2>EELARVE</h2>
+                    <h2>PLAANUR</h2>
                 </div>
+                <div class="vl"></div>
+                <h2 class="j22k">JÄÄK: </h2>
+                <div class="balance-container"></div>
             </div>
-        </main>
+        <div class="hl"></div>
+            <div class=container3>
+                    <div class=container2>
+                        <main>
+                            <div class="kast">Sisestage kirjeldus</div>
+                            <div input type="submit" class="kast">Sisestage summa</div>
+                        </main>
+                        <main>
+                            <button type="button" class="button pluss" onclick="pluss()"> LISA TULUDESSE </button>
+                            <button type="button" class="button miinus" onclick="miinus()"> LISA KULUDESSE </button>
+                        </main>
+                    </div>
+                    <main>
+                        <div class="container4" style="display: flex;">
+                            <div class="column1" ></div>
+                        </div>
+                    </main>
+            </div>
     </div>
 </body>
 </html>
