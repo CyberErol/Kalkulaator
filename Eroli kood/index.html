@@ -21,28 +21,53 @@
                 </div>
                 <div class="vl"></div>
                 <h2 class="j22k">JÄÄK: </h2>
-                <div class="balance-container"></div>
+                <p id="vahe" class="balance-container"></p>
             </div>
         <div class="hl"></div>
             <div class=container3>
                     <div class=container2>
                         <main>
-                            <div class="kast">Sisestage kirjeldus</div>
-                            <div input type="submit" class="kast">Sisestage summa</div>
+                            <input type="number" id="myText" value="" class="kast">
+                            <input type="number" id="myText" value="" class="kast">
                         </main>
                         <main>
-                            <button type="button" class="button pluss" onclick="pluss()"> LISA TULUDESSE </button>
-                            <button type="button" class="button miinus" onclick="miinus()"> LISA KULUDESSE </button>
+                            <a href="#" button class="button pluss" id onclick="pluss()"> LISA TULUDESSE </a>
+                            <a href="#" button class="button miinus" id onclick="pluss()"> LISA KULUDESSE </a>
                         </main>
                     </div>
                     <main>
                         <div class="container4" style="display: flex;">
                             <div class="column1" >
-                                <div class="column2"></div>
+                                <div class="column2">
+                                    <ul id="tulud_values"></ul>
+                                    <ul id="kulud_values"></ul>
+                                </div>
                             </div>
                         </div>
                     </main>
             </div>
     </div>
+    <script>
+        var vahe = 0
+        document.getElementById("vahe").innerHTML = vahe
+        function pluss() {
+          var btn = document.createElement("li");
+          btn.classList.add('positive')
+          btn.innerHTML = document.getElementById("myText").value
+          document.getElementById("tulud_values").appendChild(btn)
+          var tulu = +document.getElementById("myText").value
+          vahe = window.vahe + tulu
+          document.getElementById("vahe").innerHTML = vahe
+        }
+        function miinus() {
+          var btn = document.createElement("li");
+          btn.classList.add('negative')
+          btn.innerHTML = document.getElementById("myText").value
+          document.getElementById("kulud_values").appendChild(btn)
+          var tulu = document.getElementById("myText").value;
+          vahe = window.vahe - tulu
+          document.getElementById("vahe").innerHTML = vahe
+        }
+    </script>
 </body>
 </html>

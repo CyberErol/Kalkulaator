@@ -64,13 +64,13 @@ body {
 
 .header-text {
     display: flex;
-    color: white;
+    color: whitesmoke;
     flex-direction: column;
     font-size: 2vw;
 }
 
 .vl {
-    border-left: white solid 1px;
+    border-left: whitesmoke solid 1px;
     height: 100%;
     margin: 20px;
     
@@ -84,15 +84,23 @@ body {
 .j22k {
     margin: 20px;
     font-size: 30px;
-    color: white;
+    color: whitesmoke;
 }
 
 .balance-container {
     display: flex;
     width: 100%;
     height: 80px;
-    background-color: white;
-    border-radius: 20px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    border-radius:7px;
+    margin: 20px;
+    font-size: x-large;
+    font-weight: 1000;
+    text-align: center;
+    
 }
 
 
@@ -158,6 +166,13 @@ main {
     background-color: silver;
     height: 425px;
     border-radius:15px;
+}
+
+.column2 {
+    float: center;
+    background-color: whitesmoke;
+    height: 405px;
+    margin: 10px;
 }
 
 .container4 {
