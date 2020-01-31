@@ -21,7 +21,6 @@ body {
     max-width: 950px;
     float: center;
     width: 100%;
-    margin: 25px;
     flex-wrap: wrap;
     background-color: #393939;
     background: linear-gradient(240deg, rgba(0,84,150,1) 0%, rgba(0,0,0,1) 100%);
@@ -34,6 +33,7 @@ body {
     max-width: 950px;
     float: center;
     margin: 10px;
+    border-radius: 15px;
 }
 
 .container3 {
@@ -43,6 +43,7 @@ body {
     float: center;
     padding-top: 10px;
     height: 100%;
+    
 }
 
 .heading-container {
@@ -155,6 +156,13 @@ main {
     float: center;
     width: 100%;
     background-color: silver;
-    height: 400px;
+    height: 425px;
     border-radius:15px;
+}
+
+.container4 {
+    width: 950px;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
