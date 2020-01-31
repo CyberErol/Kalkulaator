@@ -82,22 +82,20 @@ body {
 }
 
 .j22k {
-    margin: 20px;
-    font-size: 30px;
+    display: flex;
     color: whitesmoke;
+    flex-direction: column;
+    font-size: 4vw;
 }
 
 .balance-container {
     display: flex;
     width: 100%;
-    height: 80px;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    height: 70px;
     background-color: whitesmoke;
     border-radius:7px;
-    margin: 20px;
-    font-size: xxx-large;
+    margin: 10px;
+    font-size: xx-large;
     align-items: center;
     
 }
@@ -173,6 +171,7 @@ a.button:active {
     background-color: whitesmoke;
     height: flex;
     margin: 10px;
+    min-height: 300px;
 }
 
 li {
@@ -190,13 +189,13 @@ li {
 }
 
 .negative {
-    color: tomato;
+    color: #f03939;
     font-size: x-large;
     font-weight: 700;
     text-align: right;
   }
   .positive {
-    color: lightgreen;
+    color: #2fbd2f;
     font-size: x-large;
     font-weight: 700;
     text-align: right;

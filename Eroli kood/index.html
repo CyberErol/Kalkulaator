@@ -28,7 +28,6 @@
                     <div class=container2>
                         <main>
                             <input type="number" id="myText" value="" class="kast">
-                            <input type="number" id="myText" value="" class="kast">
                         </main>
                         <main>
                             <a href="#" button class="button pluss" id onclick="pluss()"> LISA TULUDESSE </a>
@@ -47,27 +46,6 @@
                     </main>
             </div>
     </div>
-    <script>
-        var vahe = 0
-        document.getElementById("vahe").innerHTML = vahe
-        function pluss() {
-          var btn = document.createElement("li");
-          btn.classList.add('positive')
-          btn.innerHTML = document.getElementById("myText").value
-          document.getElementById("tulud_values").appendChild(btn)
-          var tulu = +document.getElementById("myText").value
-          vahe = window.vahe + tulu
-          document.getElementById("vahe").innerHTML = vahe
-        }
-        function miinus() {
-          var btn = document.createElement("li");
-          btn.classList.add('negative')
-          btn.innerHTML = document.getElementById("myText").value
-          document.getElementById("kulud_values").appendChild(btn)
-          var tulu = document.getElementById("myText").value;
-          vahe = window.vahe - tulu
-          document.getElementById("vahe").innerHTML = vahe
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
