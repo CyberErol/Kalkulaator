@@ -8,7 +8,7 @@ Kalkulaator, mis on abiks Teile eelarve tegemistel. Saate lisada sissetulekud/v√
 
 ## Veebileht
 
-[Live versioon](https://tak19ratsep.itmajakas.ee/calc/)
+[Live versioon](https://kalkulaator.tak18stepanov.itmajakas.ee/)
 
 ## Arendajad
 -Erol Trumm
