@@ -1,4 +1,4 @@
-EELARVE PLAANUR
+# EELARVE PLAANUR
 
 Kalkulaator, mis on abiks Teile eelarve tegemistel. Saate lisada sissetulekud/väljaminekud ning näha oma tulude/kulude ajalugu.
 
