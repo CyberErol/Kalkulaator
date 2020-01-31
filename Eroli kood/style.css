@@ -42,7 +42,7 @@ body {
     max-width: 1050px;
     float: center;
     padding-top: 10px;
-    height: 100%;
+    height: flex;
     
 }
 
@@ -97,9 +97,8 @@ body {
     background-color: whitesmoke;
     border-radius:7px;
     margin: 20px;
-    font-size: x-large;
-    font-weight: 1000;
-    text-align: center;
+    font-size: xxx-large;
+    align-items: center;
     
 }
 
@@ -119,21 +118,22 @@ main {
     text-align: center;
     border: 1px solid;
     display: flex;
+    font-size: x-large;
     align-items: center;
     justify-content: center  
 }
 
-.button {
+a.button {
 	display: inline-block;
 	outline: none;
     cursor: pointer;
     width: 50%;
-    height: 50px;
+    height: 30px;
     margin: 10px;
-	text-align: center;
-	text-decoration: none;
-	font: 14px/100% Arial, Helvetica, sans-serif;
-	padding: .5em 2em .55em;
+    text-align: center;
+    text-decoration: none;
+    color:whitesmoke;
+	padding: 1em 2em .55em;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
@@ -143,11 +143,11 @@ main {
 	box-shadow: 0 1px 2px rgba(0,0,0,.2);
 }
 
-.button:hover {
+a.button:hover {
 	text-decoration: none;
 }
 
-.button:active {
+a.button:active {
 	position: relative;
 	top: 1px;
 }
@@ -164,21 +164,29 @@ main {
     float: center;
     width: 100%;
     background-color: silver;
-    height: 425px;
+    height: flex;
     border-radius:15px;
 }
 
 .column2 {
     float: center;
     background-color: whitesmoke;
-    height: 405px;
+    height: flex;
     margin: 10px;
+}
+
+li {
+    width: 100%;
+    border-color: whitesmoke;
+    border: 1px;
+    list-style-type: none;
 }
 
 .container4 {
     width: 950px;
     padding-left: 10px;
     padding-right: 10px;
+    height: flex;
 }
 
 .negative {
