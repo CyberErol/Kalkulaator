@@ -16,7 +16,7 @@ body {
 
 
 .container {
-    height: 100%;
+    height: flex;
     flex-direction: column;
     max-width: 950px;
     float: center;
@@ -193,16 +193,17 @@ li {
     font-size: x-large;
     font-weight: 700;
     text-align: right;
-  }
-  .positive {
+}
+
+.positive {
     color: #2fbd2f;
     font-size: x-large;
     font-weight: 700;
     text-align: right;
-  @media all and (max-width:30em)
+    @media all and (max-width:30em)
 {
-    a.button{
-        display:block;
-        margin:0.4em auto;
-    }
+
+a.button{
+display:block;
+margin:0.4em auto;
 }
