@@ -34,6 +34,7 @@ body {
     max-width: 950px;
     float: center;
     margin: 10px;
+    border-radius: 15px;
 }
 
 .container3 {
@@ -43,6 +44,7 @@ body {
     float: center;
     padding-top: 10px;
     height: 100%;
+    
 }
 
 .heading-container {
@@ -158,3 +160,12 @@ main {
     height: 400px;
     border-radius:15px;
 }
+
+.container4 {
+    height: 400px;
+    width: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
