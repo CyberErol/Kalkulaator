@@ -4,51 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <style>
-        {
-    box-sizing: border-box;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+    <style> { box-sizing: border-box; }
+    .row:after { content: ""; display: table; clear: both; }
     </style>
-
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Kulude Kalkulaator</title>
+    <title>EELARVE PLAANUR</title>
 </head>
+
 <body>
-
-    <div class="flex-container">
-        <header>EELARVE PLAANUR</header>
-        <main>
-            <input type="text" id="kirjeldus">
-            <input type="number" id="summa">
-            
-            <div class="box2">Lisa tuludesse</div>
-            <button class="button" onclick="pluss()"> + </button>
-            <div class="box2">Lisa kuludesse</div>
-            <button class="button2" onclick="miinus()"> - </button>
-            
-        </main>
-
-        <div class="flex-container" style="display: flex;">
-            <div class="column1" id="income" >
-              <h2>Tulud</h2>
-              <div id="v22rtus1"></div>
+    <div class="container">
+            <div class="header">
+                <div class="header-text">
+                    <h2>EELARVE</h2>
+                    <h2>PLAANUR</h2>
+                </div>
+                <div class="vl"></div>
+                <h2 class="j22k">JÄÄK: </h2>
+                <p id="vahe" class="balance-container"></p>
             </div>
-            <div class="column2" id="outcome">
-              <h2>Kulud</h2>
-              <div id="v22rtus2"></div>
-            </div>
-          </div>
-
+        <div class="hl"></div>
+            <div class=container3>
+                    <div class="flex-container">
+                        <main>
+                            <input type="text" id="kirjeldus">
+                            <input type="number" id="summa">
+                        </main>
+                        <main>
+                            <button class="button"  onclick="pluss()"> LISA TULUDESSE </button>
+                            <button class="button"  onclick="miinus()"> LISA KULUDESSE </button>
+                        </main>
+                        <div class="flex-container" style="display: flex;">
+                            <div class="column1" id="income" >
+                              <h2>Tulud</h2>
+                              <div id="v22rtus1"></div>
+                            </div>
+                            <div class="column2" id="outcome">
+                              <h2>Kulud</h2>
+                              <div id="v22rtus2"></div>
+                            </div>
+                          </div>
+                
     </div>
-
-   <script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
