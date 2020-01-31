@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        {
+    box-sizing: border-box;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Kulude Kalkulaator</title>
+</head>
+<body>
+
+    <div class="flex-container">
+        <header>EELARVE PLAANUR</header>
+        <main>
+            <input type="text" id="kirjeldus">
+            <input type="number" id="summa">
+            
+            <div class="box2">Lisa tuludesse</div>
+            <button class="button" onclick="pluss()"> + </button>
+            <div class="box2">Lisa kuludesse</div>
+            <button class="button2" onclick="miinus()"> - </button>
+            
+        </main>
+
+        <div class="flex-container" style="display: flex;">
+            <div class="column1" id="income" >
+              <h2>Tulud</h2>
+              <div id="v22rtus1"></div>
+            </div>
+            <div class="column2" id="outcome">
+              <h2>Kulud</h2>
+              <div id="v22rtus2"></div>
+            </div>
+          </div>
+
+    </div>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
